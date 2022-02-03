@@ -11,11 +11,7 @@
 * ncnn
 
 ## result demo
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="webm" src="https://github.com/superbayes/Qt_personBody_dect/blob/main/videoPlayer/dancingDet_res.webm" type="video/webm">
-</videos>
 
 ## note
-
 * 基于nanodet 的一分类
 
