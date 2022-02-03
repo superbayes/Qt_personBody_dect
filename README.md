@@ -1,6 +1,6 @@
 # Qt_personBody_dect
 
- `person body object detection,base on nanodet,ncnn(人体识别)`
+ `people body object detection,base on nanodet,ncnn(人体识别)`
 
 ## tech points
 
