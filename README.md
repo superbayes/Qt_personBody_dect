@@ -11,6 +11,9 @@
 * ncnn
 
 ## result demo
+<video id="video" controls="" preload="none" poster="">
+      <source id="webm" src="https://github.com/superbayes/Qt_personBody_dect/blob/main/videoPlayer/dancingDet_res.webm" type="video/webm">
+</video>
 
 ## note
 
