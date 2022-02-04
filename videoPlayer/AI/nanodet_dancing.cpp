@@ -122,12 +122,12 @@ void NanoDet_Dancing::draw(cv::Mat& image, std::vector<BoxInfo> boxes)
     for (int i = 0; i < boxes.size(); i++)
     {
         const BoxInfo& bbox = boxes[i];
-        cv::rectangle(image, cv::Rect(cv::Point(bbox.x1, bbox.y1), cv::Point(bbox.x2, bbox.y2)), cv::Scalar(0, 0, 255));
+        cv::rectangle(image, cv::Rect(cv::Point(bbox.x1, bbox.y1), cv::Point(bbox.x2, bbox.y2)), cv::Scalar(0, 0, 255),5);
         char text[256];
         sprintf_s(text, "%s %.1f%%", this->labels[bbox.label], bbox.score * 100);
         int baseLine = 0;
         cv::Size label_size = cv::getTextSize(text, cv::FONT_HERSHEY_SIMPLEX, 0.4, 1, &baseLine);
-        cv::putText(image, text, cv::Point(bbox.x1, bbox.y1), cv::FONT_HERSHEY_SIMPLEX, 0.4, cv::Scalar(0, 255, 0));
+        cv::putText(image, text, cv::Point(bbox.x1, bbox.y1), cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(0, 255, 0));
     }
 }
 
