@@ -11,7 +11,7 @@
 * ncnn
 
 ## result demo
-![gif](https://github.com/superbayes/Qt_personBody_dect/blob/main/videoPlayer/result.gif)
+![gif](https://github.com/superbayes/Qt_personBody_dect/blob/main/videoPlayer/dancing2.gif)
 ## note
 * 基于nanodet 的一分类
 
